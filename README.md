@@ -1,61 +1,79 @@
-NeoCareerNest – Career Opportunity Portal
+🚀 NeoCareerNest – Career Opportunity Portal
 
-NeoCareerNest is a complete career opportunity platform designed for Neo Organization.
-This website allows the company to hire job seekers, offer internships, conduct contests, and manage HR activities through a modern, user-friendly interface.
+NeoCareerNest is a modern, full-stack career opportunity and recruitment platform built exclusively for Neo Organization.
+It provides a unified system for job hiring, internships, career preparation, contests, and HR management through a secure, role-based web portal.
 
-The portal contains two types of users:
+This project is designed to deliver a professional, scalable, and user-friendly hiring experience for both Job Seekers and HR users.
 
-Job Seekers – Apply for jobs, internships, participate in contests, learn and prepare.
+👥 User Roles
+🧑‍💼 Job Seekers
 
-HR Users – Manage job postings, internships, and applicants using full CRUD operations.
+Apply for jobs and internships
 
-🌐 Project Overview
-
-NeoCareerNest is built as a professional recruitment and career development website for a single organization (Neo Organization).
-The aim is to provide:
-
-A smooth job application process
-
-High-quality career preparation resources
-
-Internships and skill-building opportunities
-
-Contests, hackathons, and mock tests
-
-A complete HR management system
-
-Both Job Seekers and HR users have different login and signup experiences, ensuring secure and role-based access.
-
-✨ Key Features
-For Job Seekers
-
-View and apply to jobs
-
-Browse available internships
-
-Access preparation materials (career guidance, expert speak, resume maker, interview Q&A)
+Track application status
 
 Participate in contests, mock tests, and hackathons
 
-View application status
+Access career preparation resources
 
-For HR Users
+Build skills and grow professionally
 
-Manage job postings (Create, Read, Update, Delete)
+🧑‍💻 HR Users
 
-Manage internships
+Manage job postings (Create / Read / Update / Delete)
 
-View applications from job seekers
+Manage internship programs
+
+View and review applications from candidates
 
 Post new opportunities and events
 
-Public Website Features
+Handle recruitment workflows efficiently
 
-Home page with an “Apply for Job” button in the center
+🌐 Project Overview
 
-Clean navigation with Login and Signup options at top-right
+NeoCareerNest is built as a single-organization career portal for Neo Organization with the goal of providing:
 
-Pages included:
+✅ A smooth and transparent job application process
+✅ High-quality career preparation resources
+✅ Internship and skill-development opportunities
+✅ Contests, hackathons, and mock assessments
+✅ A complete HR management system
+
+Each user gets a role-specific login experience, ensuring secure and controlled access across the platform.
+
+✨ Key Features
+🔹 For Job Seekers
+
+🔍 View and search available jobs
+
+📝 Apply for jobs with application tracking
+
+🎓 Browse internship opportunities
+
+📚 Access career guidance and interview preparation
+
+🏆 Participate in contests, mock tests, and hackathons
+
+🔹 For HR Users
+
+📌 Create, update, and delete job postings
+
+🎯 Manage internship programs
+
+📊 View and manage job applications
+
+🧾 Monitor hiring activities from a centralized dashboard
+
+🔹 Public Website Features
+
+🏠 Home page with centered “Apply for Job” CTA
+
+🔐 Secure Login & Signup
+
+🧭 Clean and intuitive navigation
+
+Available Pages
 
 Home
 
@@ -74,113 +92,114 @@ Login & Signup
 HR Dashboard
 
 🧰 Technologies Used
-Frontend
+🎨 Frontend
 
-React.js
+⚛️ React.js
 
-Vite
+⚡ Vite
 
-Tailwind CSS
+🎨 Tailwind CSS
 
-Axios (for API calls)
+🔗 Axios (API communication)
 
-Backend
+⚙️ Backend
 
-Spring Boot (Java)
+☕ Spring Boot (Java)
 
-REST API Architecture
+🔁 REST API Architecture
 
-JWT Authentication (for secure login)
+🔐 JWT Authentication
 
-Database
+🗄️ Database
 
-MySQL
+🐬 MySQL
 
-Testing & API Tools
+🧪 Testing & Tools
 
-Postman
+📬 Postman (API testing)
 
-🗂️ Project Structure (High-Level)
-
-Frontend → React application for Job Seekers and HR
-
-Backend → Spring Boot services, controllers, authentication system
-
-Database → MySQL tables for users, jobs, internships, applications, contests
+🗂️ Project Structure (High Level)
+NeoCareerNest
+│
+├── careernest-frontend   → React UI for Job Seekers & HR
+├── careernest-backend    → Spring Boot APIs & Authentication
+└── database              → MySQL schema & data
 
 🚀 How the System Works
 
-Job Seeker or HR signs up on the portal
+1️⃣ Job Seeker or HR registers on the portal
+2️⃣ User logs in and receives role-based access
+3️⃣ Job Seekers can:
 
-User logs in and receives role-based access
+Browse jobs & internships
 
-Job Seekers can:
-
-View jobs, internships
-
-Apply
+Apply and track applications
 
 Participate in activities
 
 Prepare for interviews
 
-HR users can:
+4️⃣ HR Users can:
 
-Add/edit/delete jobs
+Post and manage jobs & internships
 
-Add/edit/delete internships
+Review applications
 
-View applicants
+Manage hiring activities
 
-All data is stored in MySQL
-
-Backend API communicates with frontend via secure endpoints
+5️⃣ All data is stored in MySQL
+6️⃣ Frontend communicates securely with backend APIs
 
 ▶️ Getting Started
-Frontend Setup (React)
-
-To start working on the frontend:
-
+🔹 Frontend Setup (React)
 npm create vite@latest
 npm install
 npm run dev
 
-Backend Setup (Spring Boot)
+🔹 Backend Setup (Spring Boot)
 
-Import backend folder in any IDE (IntelliJ or Eclipse)
+Open backend folder in IntelliJ IDEA or Eclipse
 
 Configure MySQL in application.properties
 
 Run the Spring Boot application
 
-Postman
+🔹 API Testing (Postman)
 
 Use Postman to test:
 
-Login
+Login & Signup
 
-Signup
+Job CRUD operations
 
-Job CRUD
+Internship CRUD operations
 
-Internship CRUD
+Application management
 
-💡 Future Hosting
+💡 Future Hosting Plan
 
-The website can be hosted using:
+🚧 Hosting will be done after development completion.
 
-Frontend: Vercel / Netlify
+Planned Platforms
 
-Backend: Render / Railway / AWS
+🌍 Frontend: Vercel / Netlify
 
-Database: MySQL Cloud Services
+⚙️ Backend: Render / Railway / AWS
 
-(Hosting setup will be done after development is complete.)
+🗄️ Database: MySQL Cloud Services
 
-🏢 About the Organization
+🏢 About Neo Organization
 
-NeoCareerNest is created exclusively for Neo Organization, offering multiple job roles, internships, and opportunities under a single corporate brand.
+NeoCareerNest is developed exclusively for Neo Organization, providing a centralized platform to manage multiple job roles, internships, and career opportunities under one corporate brand.
 
 🎯 Goal of the Project
 
-To build a modern, scalable, and professional career portal that supports both job seekers and HR workflows while offering additional learning and participation features.
+To build a modern, scalable, and enterprise-ready career portal that:
+
+Supports end-to-end hiring workflows
+
+Enhances job seeker experience
+
+Simplifies HR operations
+
+Encourages learning, participation, and career growth
